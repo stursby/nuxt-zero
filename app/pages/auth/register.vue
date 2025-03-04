@@ -6,7 +6,6 @@ const email = ref('')
 const password = ref('')
 
 async function register() {
-  console.log(name.value, email.value, password.value)
   const response = await authClient.signUp.email({
     name: name.value,
     email: email.value,
