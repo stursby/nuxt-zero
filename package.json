@@ -1,17 +1,26 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-zero",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
     "dev": "nuxt dev",
+    "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
+    "@nuxthub/core": "^0.8.18",
+    "better-auth": "^1.2.2",
+    "drizzle-orm": "^0.40.0",
     "nuxt": "^3.15.4",
+    "uuidv7": "^1.0.2",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.30.5",
+    "wrangler": "^3.112.0"
   }
 }
