@@ -1,0 +1,10 @@
+@import 'tailwindcss' theme(static);
+@import '@nuxt/ui-pro';
+
+:root {
+  --ui-primary: black;
+}
+
+.dark {
+  --ui-primary: white;
+}

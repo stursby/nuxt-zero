@@ -1,8 +1,9 @@
+<script lang="ts" setup>
+definePageMeta({
+  layout: 'marketing'
+})
+</script>
+
 <template>
-  <div>
-    <h1>NuxtZero</h1>
-    <NuxtLink to="/auth/login">Login</NuxtLink>
-    <br />
-    <NuxtLink to="/auth/register">Register</NuxtLink>
-  </div>
+  <div></div>
 </template>

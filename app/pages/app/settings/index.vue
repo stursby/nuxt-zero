@@ -6,7 +6,6 @@ definePageMeta({
 
 <template>
   <div>
-    <NuxtLink to="/app">&larr; Dashboard</NuxtLink>
-    <p>Settings go here...</p>
+    <p>Settings page</p>
   </div>
 </template>

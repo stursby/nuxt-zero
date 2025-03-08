@@ -14,10 +14,5 @@ async function logout() {
 <template>
   <div>
     <p>Dashboard</p>
-    <p>Welcome to the dashboard!</p>
-    <NuxtLink to="/app/settings">Setting</NuxtLink>
-
-    <br /><br />
-    <button @click="logout">Logout</button>
   </div>
 </template>
