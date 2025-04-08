@@ -40,7 +40,8 @@ jobs:
         id: deploy
         with:
           project-key: nuxt-zero-7q5j
-  env:
-    BETTER_AUTH_URL: ${{ secrets.BETTER_AUTH_URL }}
-    BETTER_AUTH_SECRET: ${{ secrets.BETTER_AUTH_SECRET }}
-    NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
+
+    env:
+      BETTER_AUTH_URL: ${{ secrets.BETTER_AUTH_URL }}
+      BETTER_AUTH_SECRET: ${{ secrets.BETTER_AUTH_SECRET }}
+      NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
