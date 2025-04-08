@@ -1,6 +1,6 @@
-# Nuxt Minimal Starter
+# Nuxt Zero
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A simple Nuxt 4 starter kit for NuxtHub using Better Auth.
 
 ## Setup
 

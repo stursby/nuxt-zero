@@ -59,7 +59,11 @@ async function onSubmit(payload: FormSubmitEvent<Schema>) {
   })
 
   if (response.error != null) {
-    console.error('Error signing up')
+    toast.add({
+      title: 'Error signing up',
+      description: response.error.message,
+      color: 'error'
+    })
     return null
   }
 

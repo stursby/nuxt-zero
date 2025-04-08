@@ -5,14 +5,12 @@ definePageMeta({
   middleware: 'auth'
 })
 
-async function logout() {
-  await authClient.signOut()
-  return navigateTo('/auth/login')
-}
+const { data: session } = await authClient.getSession()
 </script>
 
 <template>
   <div>
     <p>Dashboard</p>
+    <pre class="text-sm p-6 w-full overflow-hidden">{{ session }}</pre>
   </div>
 </template>
